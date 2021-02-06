@@ -1,0 +1,38 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../Uc_Faz_Inverter/Predictive_Control/Global_variable.c \
+../Uc_Faz_Inverter/Predictive_Control/akim_kontrol.c \
+../Uc_Faz_Inverter/Predictive_Control/sin_egrisi.c 
+
+C_DEPS += \
+./Uc_Faz_Inverter/Predictive_Control/Global_variable.d \
+./Uc_Faz_Inverter/Predictive_Control/akim_kontrol.d \
+./Uc_Faz_Inverter/Predictive_Control/sin_egrisi.d 
+
+OBJS += \
+./Uc_Faz_Inverter/Predictive_Control/Global_variable.obj \
+./Uc_Faz_Inverter/Predictive_Control/akim_kontrol.obj \
+./Uc_Faz_Inverter/Predictive_Control/sin_egrisi.obj 
+
+OBJS__QUOTED += \
+"Uc_Faz_Inverter\Predictive_Control\Global_variable.obj" \
+"Uc_Faz_Inverter\Predictive_Control\akim_kontrol.obj" \
+"Uc_Faz_Inverter\Predictive_Control\sin_egrisi.obj" 
+
+C_DEPS__QUOTED += \
+"Uc_Faz_Inverter\Predictive_Control\Global_variable.d" \
+"Uc_Faz_Inverter\Predictive_Control\akim_kontrol.d" \
+"Uc_Faz_Inverter\Predictive_Control\sin_egrisi.d" 
+
+C_SRCS__QUOTED += \
+"../Uc_Faz_Inverter/Predictive_Control/Global_variable.c" \
+"../Uc_Faz_Inverter/Predictive_Control/akim_kontrol.c" \
+"../Uc_Faz_Inverter/Predictive_Control/sin_egrisi.c" 
+
+

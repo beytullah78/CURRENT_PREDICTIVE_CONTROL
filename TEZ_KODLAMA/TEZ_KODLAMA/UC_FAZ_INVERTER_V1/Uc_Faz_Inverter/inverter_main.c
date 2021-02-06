@@ -1,0 +1,53 @@
+/*
+ * inverter_main.c
+ *
+ *  Created on: 19 Eyl 2020
+ *      Author: ASUS
+ */
+
+#include "inverter_main.h"
+#include "akim_kontrol.h"
+
+/*
+        GPIOPinWrite(GPIO_PORTC_BASE, GPIO_PIN_5, GPIO_PIN_5);
+          adc_okuma();
+         // kontrol_algoritma();
+          gate_sürücüler_pin_reset();
+         gate_sürücüler_vektörler_pinler();
+       GPIOPinWrite(GPIO_PORTC_BASE, GPIO_PIN_5, GPIO_PIN_0);
+*/
+
+
+INT inverter_main(void)
+{
+    mcu_frekansi_ayarlama();
+    sin_egrisi_oluþturma();
+    gate_sürücüler_pinler_init();
+    adc_cevre_birimi_init();
+    algoritma_init();
+    gate_sürücüler_enable();
+    timer_cevre_birimi_init();
+    gate_sürücüler_pin_reset();
+
+
+    while(1)
+   {
+
+            if(GL.tasklar_t.HZ.KHZ_40 == 1)
+            {
+                GPIOPinWrite(GPIO_PORTC_BASE , GPIO_PIN_4, 0 ); // osiloskop için konuldu
+
+                 adc_okuma();
+                 kontrol_algoritma();
+                 gate_sürücüler_pin_reset();
+                 gate_sürücüler_vektörler_pinler();
+
+                 GPIOPinWrite(GPIO_PORTC_BASE , GPIO_PIN_4, GPIO_PIN_4 ); // osiloskop için konuldu
+
+                GL.tasklar_t.HZ.KHZ_40 = 0 ;
+
+           }
+
+    }
+}
+

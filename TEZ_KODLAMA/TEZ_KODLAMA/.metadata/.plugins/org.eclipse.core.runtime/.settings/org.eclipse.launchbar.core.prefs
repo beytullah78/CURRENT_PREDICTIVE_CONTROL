@@ -1,0 +1,17 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:UC_FAZ_INVERTER_V1
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:DAC+OTONOM_SINUS/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:DAC+OTONOM_SINUS/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:GPIOPinWrite_GPIOPinRead/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:GPIOPinWrite_GPIOPinRead/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:TIMER_LED/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:TIMER_LED/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:TIMER_LED_YAKMA/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:TIMER_LED_YAKMA/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:TIMER_ROM/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:TIMER_ROM/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:UC_FAZ_INVERTER_V1/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:UC_FAZ_INVERTER_V1/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

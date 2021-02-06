@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;UC_FAZ_INVERTER_V1/Uc_Faz_Inverter/Predictive_Control/kontrol_algoritmasi.h&apos; to &apos;kontrol_algoritma.h&apos;" description="Rename resource &apos;kontrol_algoritmasi.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Uc_Faz_Inverter/Predictive_Control/kontrol_algoritmasi.h" name="kontrol_algoritma.h" stamp="1608486449738" updateReferences="true"/>
+</session>

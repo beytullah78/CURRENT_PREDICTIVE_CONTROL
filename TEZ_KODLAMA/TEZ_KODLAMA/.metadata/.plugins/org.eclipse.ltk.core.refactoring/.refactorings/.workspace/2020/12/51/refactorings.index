@@ -1,0 +1,6 @@
+1608475315884	Delete resource 'DAC+OTONOM_SINUS'
+1608475324312	Delete resource 'ADC_4LU_OKUMA'
+1608478945010	Delete resource 'interrupts'
+1608478951289	Delete resource 'timers'
+1608478956343	Delete resource 'gpio_jtag'
+1608478960196	Delete resource 'blinky'
