@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project GPIOPinWrite_GPIOPinRead ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'GPIOPinWrite_GPIOPinRead.out' is up to date.
+
+**** Build Finished ****
