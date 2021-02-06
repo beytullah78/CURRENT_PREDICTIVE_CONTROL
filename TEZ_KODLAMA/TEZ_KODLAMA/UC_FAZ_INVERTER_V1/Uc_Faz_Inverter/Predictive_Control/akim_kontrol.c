@@ -469,7 +469,7 @@ INT dongu_u8 * Yazan	     :  BEYTULLAH ÇÝÇEKCÝ
  * Aciklama	     :
  *
  */
-void gate_sürücüler_pin_reset(void)
+void gate_suruculer_pin_reset(void)
 {
 
     GPIOPinWrite( GPIO_PORTA_BASE, GPIO_PIN_5, 0 );
@@ -496,7 +496,7 @@ void gate_sürücüler_pin_reset(void)
  * Aciklama	     :
  *
  */
-void gate_sürücüler_vektörler_pinler(void)
+void gate_suruculer_vektorler_pinler(void)
 {
 
      GPIOPinWrite( GPIO_PORTB_BASE, GPIO_PIN_5, GPIO_PIN_5 );

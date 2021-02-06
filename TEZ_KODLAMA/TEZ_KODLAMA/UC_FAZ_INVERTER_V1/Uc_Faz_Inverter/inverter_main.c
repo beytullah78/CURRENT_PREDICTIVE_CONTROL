@@ -15,8 +15,8 @@
           gate_sürücüler_pin_reset();
          gate_sürücüler_vektörler_pinler();
        GPIOPinWrite(GPIO_PORTC_BASE, GPIO_PIN_5, GPIO_PIN_0);
-*/
 
+*/
 
 INT inverter_main(void)
 {
@@ -27,11 +27,18 @@ INT inverter_main(void)
     algoritma_init();
     gate_sürücüler_enable();
     timer_cevre_birimi_init();
-    gate_sürücüler_pin_reset();
+    gate_suruculer_pin_reset();
 
 
     while(1)
    {
+
+        GPIOPinWrite(GPIO_PORTC_BASE, GPIO_PIN_5, GPIO_PIN_5);
+          adc_okuma();
+         // kontrol_algoritma();
+          gate_suruculer_pin_reset();
+         gate_suruculer_vektorler_pinler();
+        GPIOPinWrite(GPIO_PORTC_BASE, GPIO_PIN_5, GPIO_PIN_0);
 
             if(GL.tasklar_t.HZ.KHZ_40 == 1)
             {
@@ -39,15 +46,13 @@ INT inverter_main(void)
 
                  adc_okuma();
                  kontrol_algoritma();
-                 gate_sürücüler_pin_reset();
-                 gate_sürücüler_vektörler_pinler();
+                 gate_suruculer_pin_reset();
+                 gate_suruculer_vektorler_pinler();
 
                  GPIOPinWrite(GPIO_PORTC_BASE , GPIO_PIN_4, GPIO_PIN_4 ); // osiloskop için konuldu
 
                 GL.tasklar_t.HZ.KHZ_40 = 0 ;
-
-           }
-
+            }
     }
 }
 

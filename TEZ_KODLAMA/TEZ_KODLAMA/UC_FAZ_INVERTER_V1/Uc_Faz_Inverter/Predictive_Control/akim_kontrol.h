@@ -37,8 +37,8 @@ void timer_cevre_birimi_init(void);
 
 void adc_okuma(void);
 void kontrol_algoritma(void);
-void gate_sürücüler_pin_reset(void);
-void gate_sürücüler_vektörler_pinler(void);
+void gate_suruculer_pin_reset(void);
+void gate_suruculer_vektorler_pinler(void);
 
 
 
